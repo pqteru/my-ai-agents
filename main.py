@@ -38,10 +38,9 @@ manager_agent = CodeAgent(
     # ],
 )
 
-# using GradioUI to launch the agent
-# GradioUI(manager_agent).launch()
-
 # using bash command
-answer = manager_agent.run("What is the best time to book a cheaper flight that from Taipei to Osaka in April?")
+# answer = manager_agent.run("What is the best time to book a cheaper flight that from Taipei to Osaka in April in 2025?")
+# print(answer)
 
-print(answer)
+# using GradioUI to launch the agent
+GradioUI(manager_agent).launch()

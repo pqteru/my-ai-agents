@@ -28,8 +28,7 @@ To install and set up the project, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/your-repo.git
-    cd your-repo
+    cd my-ai-agents
     ```
 
 2. Create a virtual environment:
@@ -52,16 +51,11 @@ To install and set up the project, follow these steps:
     pip install -r requirements.txt
     ```
 
-5. Set up environment variables:
-    Create a [.env](http://_vscodecontentref_/0) file in the root directory of the project and add the necessary environment variables:
-    ```
-    API_BASE=http://localhost:11434
-    API_KEY=ollama
-    ```
-
 ## Usage
 To run the project, execute the `main.py` script:
 
 ```bash
-python main.py
+python.exe main.py
 ```
+
+now visit http://127.0.0.1:7860/ to chat with your agent!
